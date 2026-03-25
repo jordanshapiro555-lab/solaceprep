@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,13 +19,11 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="/" className="flex items-center">
-          <Image
-            src="/solace-logo.svg"
+        <a href="/solaceprep/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/solaceprep/solace-logo.svg"
             alt="Solace"
-            width={100}
-            height={28}
-            priority
             className="h-7 w-auto"
           />
         </a>

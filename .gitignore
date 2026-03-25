@@ -5,6 +5,8 @@ node_modules/
 .next/
 out/
 
+# docs/ is committed — GitHub Pages source
+
 # Build
 dist/
 
