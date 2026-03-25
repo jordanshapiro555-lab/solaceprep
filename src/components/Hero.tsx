@@ -75,9 +75,9 @@ export default function Hero() {
         {/* Copy */}
         <div className="w-full md:w-1/2 text-center md:text-left order-1 md:order-2">
           <h1 className="section-heading text-solace-text mb-4 text-3xl md:text-[2.6rem] leading-tight">
-            Your insurance company has a team of lawyers.{" "}
+            Get expert help with{" "}
             <span className="text-solace-green">
-              You should have an expert too.
+              doctors, bills and insurance
             </span>
           </h1>
           <p className="text-gray-600 text-lg mb-7 leading-relaxed">
