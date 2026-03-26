@@ -9,7 +9,6 @@ import StatsBar from "@/components/StatsBar";
 import CareTeamSection from "@/components/CareTeamSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import AdvocateDoSection from "@/components/AdvocateDoSection";
-import HowItWorks from "@/components/HowItWorks";
 import PatientStoriesSection from "@/components/PatientStoriesSection";
 import FaqSection from "@/components/FaqSection";
 import BottomCta from "@/components/BottomCta";
@@ -29,7 +28,6 @@ export default function CommercialInsurancePage() {
       <CareTeamSection />
       <TestimonialSection />
       <AdvocateDoSection />
-      <HowItWorks />
       <PatientStoriesSection />
       <FaqSection />
       <BottomCta />
